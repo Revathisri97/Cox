@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Password Input Control</title>
+   </head>
+<body>
+<form>  
+<p>
+          <label>Splash page Name : <input type="text" /></label>
+</p>
+<p>
+          <label>Browser title  : <input type="text" /></label>
+</p>
+<p>
+         <label>Redirection Type </label>
+         <select name="Redirection Type" id="Type">
+            <option value="custom URL ">custom URL </option>
+            <option value="Thank You page">Thank You page</option>
+            </select>
+</p>
+<p>
+         <label>Behavior : <input type="text" /></label>
+</p>
+<p>
+        <label>Logo or Logo Alternative Text: <input type="text" /></label>
+</p>
+<p>
+        <label>Greeting Text: <input type="text" /></label>
+</p>
+<p>
+       <label>Horizontal Image <input type="text" /></label>
+</p>
+<p>
+      <label>Property Message <input type="text" /></label>
+</p>
+<p>
+      <label>Vertical Image <input type="text" /></label>
+</p>
+<p>
+      <label>Age Opt-in <input type = "radio"  value = "Not Visible"> NotVisible
+                        <input type = "radio"  value = "Visible"> Visible</label>
+</p>
+<p>
+     <label>Button Design<input type="text" /></label>
+</p>
+<p>
+     <label>Header & Footer Color <input type="text" /></label>
+</p>
+</form>
+</body>
+</html>
